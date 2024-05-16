@@ -1,0 +1,86 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  height: 50vh; /* Set the height of the body to 100% of the viewport height */
+}
+.word{
+
+  position: absolute;
+  margin-top: -30%;
+  margin-bottom: 50%;
+  margin-left: 30%;
+  height: 200px;
+  width: auto;
+ 
+  
+}
+
+
+.word h1 {
+  font-size: 70px;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.word h2 {
+  font-size: 45px; /* Adjust font size as needed */
+  margin: 0; /* Remove default margin */
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0%;
+  font-size: 25px;
+  width: 100%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 80px;
+  overflow: auto;
+  opacity: 0.8;
+  border-radius: 30px;
+  z-index: 3; /* Updated z-index to be higher than the .hero-content */
+  padding-top: 40px;
+}
+
+
+li a {
+  font-size: 30px;
+  color: #000;
+  padding: 30px;
+  text-decoration: none;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin-top: 30px;
+}
+
+li a.active {
+  background-color: rgb(114, 114, 149);
+  color: white;
+  width: 100%;
+}
+
+li a:hover:not(.active) {
+  background-color: hsl(0, 0%, 33%);
+  color: white;
+  width: 100%;
+}
+
+
+.image-container{
+  position: relative;
+  display: block;
+  text-align: center;
+  align-items: center;
+  height:1100px;
+  z-index: -2;
+  width: 100vw;
+  margin: 0%;
+  padding: 0%;
+  
+}
+
+

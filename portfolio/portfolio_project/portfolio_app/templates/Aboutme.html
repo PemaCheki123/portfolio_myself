@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% block title %}About Me{% endblock %}
+
+{% block content_block %}
+  <div class="MainimageContainer " style="height: auto; width: 100vw;">
+    <div class="card">
+      <img src="{% static 'image/2beb77c310539c8c1184c4da52a935b0.jpg' %}" alt="avater" width="100%">
+      <div class="p1">
+        <h1><b> Pema Cheki</b></h1>
+        <p style="font-size: 25px;">Software Engineer</p>
+      </div>
+    </div>
+
+
+
+    <div class="Aboutme_container">
+      <p class="aboutmeword">About Me </p>
+    </div>
+
+    <div class="aboutmedescription_container">
+      <p class="aboutme_words">
+        Hey there, I'm Pema Cheki, <br> and I'm all about bringing my <br>
+        passions to life! Originally from <br> TrashiYangtse, I've always <br>
+        had a knack for painting. There's something <br> magical about <br>
+        putting brush to canvas and watching <br> colors swirl into beautiful creations.
+        <br> <br> <br>
+        So, whether I'm painting a masterpiece, <br>
+        hitting high notes, smashing shuttlecocks, or <br> coding away, one thing's for <br>
+        sure—I'm on a colorful journey to  <br> make my dreams a reality.  
+        <br> <br> ~Pema
+      </p>
+    </div>
+   </div>
+
+   
+{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'Aboutme.css' %}">
+{% endblock %}
+
+  
+
+
+

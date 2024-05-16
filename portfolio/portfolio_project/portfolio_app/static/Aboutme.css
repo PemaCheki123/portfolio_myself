@@ -1,0 +1,54 @@
+
+
+.Aboutme_container {
+  width: 750px;
+  height: 225px;
+  margin-left: 1350px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.aboutmeword {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 95px;
+  margin-top: -950px;
+  margin-left: -400px;
+  color: rgb(153, 167, 175);
+}
+
+.aboutmedescription_container {
+  background-color: white;
+  width: 700px;
+  height: 800px;
+  margin-top: -1060px;
+  margin-left: 1300px;
+}
+
+.aboutme_words {
+  color: black;
+  font-size: xx-large;
+  margin-right: 100px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 25%;
+  height: 800px;
+  margin-left: 400px;
+  margin-top: 250px;
+}
+
+.p1 {
+  margin-top: -35px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 10px 16px;
+}

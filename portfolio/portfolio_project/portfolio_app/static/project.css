@@ -1,0 +1,231 @@
+.main_container{
+  display: grid;
+  text-align: center;
+  background-color: #bad4e6 ;
+}
+@media screen and (max-width: 768px) {
+  .main_container {
+    display: block; /* Change display to block for smaller screens */
+    width: auto; /* Set width to auto for responsiveness */
+    height: auto; 
+  }
+  
+  .project_container {
+    width: auto; /* Set width to auto for responsiveness */
+    height: auto; /* Set height to auto for responsiveness */
+    margin-left: 0; /* Remove margin-left for smaller screens */
+    margin-top: 20px; /* Adjust margin-top for smaller screens */
+  }
+
+  .project_word {
+    font-size: 40px; /* Decrease font size for smaller screens */
+    margin-left: 0; /* Remove margin-left for smaller screens */
+    margin-top: 0; /* Remove margin-top for smaller screens */
+  }
+
+  .project_detail {
+    width: auto; /* Set width to auto for responsiveness */
+    height: auto; /* Set height to auto for responsiveness */
+    margin: 20px auto; /* Adjust margin for smaller screens */
+  }
+
+  .first_project1, .first_project2, .first_project3, .first_project4 {
+    width: auto; /* Set width to auto for responsiveness */
+    height: auto; /* Set height to auto for responsiveness */
+    margin: 20px auto; /* Adjust margin for smaller screens */
+  }
+
+  .first_image1, .first_image2, .first_image3, .first_image4 {
+    width: auto; /* Set width to auto for responsiveness */
+    height: auto; /* Set height to auto for responsiveness */
+    margin: 20px auto; /* Adjust margin for smaller screens */
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero-content h1 {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+  .hero-content h2 {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+}
+.project_container{
+  width: 1300px;
+  height: 200px;
+  margin-left: -140px;
+  margin-top: 70px;
+}
+
+
+.project_word{
+  font-size: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 30px;
+  color: white;
+  margin-left: -100px;
+  margin-top: -20px;
+
+}
+
+button{
+  height: 60px;
+  width: 200px;
+  background-color: #bad4e6;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.project_detail{
+  height: 800px;
+  width: 700px;
+  background-color: white;
+  margin-left: 100px;
+  margin-top: -80px;
+  
+}
+
+.first_image1{
+  height: 730px;
+  width: 210px;
+  margin-top: -850px;
+  margin-left: 1100px;
+}
+
+.first_image2{
+  height: 730px;
+  width: 210px;
+  margin-top: -800px;
+  margin-left: 1350px;
+}
+
+.first_image3{
+  height: 730px;
+  width: 210px;
+  margin-top: -920px;
+  margin-left: 1600px;
+}
+
+.first_image4{
+  height: 730px;
+  width: 210px;
+  
+  margin-top: -890px;
+  margin-left: 1850px;
+}
+
+.image_inside_box{
+  width: 500px;
+}
+
+.first_project1{
+  width: 600px;
+  height: 120px;
+  margin-left: 150px;
+  margin-top: -650px;
+  justify-content: space-between;
+}
+
+.first_project2{
+  width: 600px;
+  height: 120px;
+  margin-left: 150px;
+  margin-top: -550px;
+  justify-content: space-between;
+}
+
+.first_project3{
+  width: 600px;
+  height: 120px;
+  margin-left: 150px;
+  margin-top: -450px;
+  justify-content: space-between;
+}
+
+.first_project4{
+  width: 600px;
+  height: 120px;
+  margin-left: 150px;
+  margin-top: -350px;
+  justify-content: space-between;
+}
+
+.bullet1{
+  width: 40px;
+  height: 40px;
+  margin-left: -550px;
+  margin-top: 30px;
+}
+
+.game1{
+  font-size: 30px;
+  margin-top: -45px;
+  margin-left: -300px;
+  color: black;
+}
+
+.game1Link{
+  font-size: 25px;
+  margin-top: -30px;
+  margin-left: -200px;
+  color: black;
+}
+
+.bullet2{
+  width: 40px;
+  height: 40px;
+  margin-left: -550px;
+  margin-top: 30px;
+}
+
+.game2{
+  font-size: 30px;
+  margin-top: -45px;
+  margin-left: -280px;
+}
+
+.game2Link{
+  font-size: 25px;
+  margin-top: -30px;
+  margin-left: -200px;
+  color: black;
+}
+
+.bullet3{
+  width: 40px;
+  height: 40px;
+  margin-left: -550px;
+  margin-top: 30px;
+}
+
+.game3{
+  color: pink;
+  font-size: 30px;
+  margin-top: -45px;
+  margin-left: -280px;
+}
+
+.game3Link{
+  font-size: 25px;
+  margin-top: -30px;
+  margin-left: -200px;
+  color: black;
+}
+
+.bullet4{
+  width: 40px;
+  height: 40px;
+  margin-left: -550px;
+  margin-top: 30px;
+}
+
+.game4{
+  font-size: 30px;
+  margin-top: -45px;
+  margin-left: -290px;
+}
+
+.game4Link{
+  font-size: 25px;
+  margin-top: -30px;
+  margin-left: -200px;
+  color: black;
+}

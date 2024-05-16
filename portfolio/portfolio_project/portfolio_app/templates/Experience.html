@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% block title %}Experience{% endblock %}
+
+{% block content_block %}
+<div class="main_screen" style="background-color: aliceblue;"> 
+  <div class="experience_word_container">
+    <h1 class="experience_words" >
+      Experience
+    </h1>
+  </div>
+
+  <div class="image_containers">
+    <div class="first_container">
+      <img src="{% static 'image/bff09772fb9a4c5fd0d7a0785a74c6f5.jpg' %}" class="first_image">
+    </div>
+
+    <div class="second_container">
+      <img src="{% static 'image/2beb77c310539c8c1184c4da52a935b0.jpg' %}" class="second_image">
+    </div>
+
+    <div class="third_container">
+      <img src="{% static 'image/358d8f84849ec867fcb09ef63c9aa7ef.jpg' %}" class="third_image">
+    </div>
+  </div>
+
+  <div class="expereince_container">
+    <div class="experience_item">
+      <img src="{% static 'image/5eca01003c0eb94ebcdd3d3d05b98129.jpg' %}" class="arrow">
+      <p class="title" style="color: black;"><strong>Graduated from College of Science and Technology</strong></p>
+      <img src="{% static 'image/495455fd3c061369cdbf7dd1bb853fc0.jpg' %}" class="bullet">
+      <p class="description" style="color: black;">Completed Bachelor Degree in Information Technology</p>
+    </div>
+
+    <div class="experience_item">
+      <img src="{% static 'image/5eca01003c0eb94ebcdd3d3d05b98129.jpg' %}" class="arrow">
+      <p class="title"  style="color: black;"><strong>Graduated from Baylling Central School</strong></p>
+      <img src="{% static 'image/495455fd3c061369cdbf7dd1bb853fc0.jpg' %}" class="bullet">
+      <p class="description"  style="color: black;">Completed studying about Python</p>
+    </div>
+
+    <div class="experience_item">
+      <img src="{% static 'image/5eca01003c0eb94ebcdd3d3d05b98129.jpg' %}" class="arrow">
+      <p class="title"  style="color: black;"><strong>Graduated from Tshenkharla Central School</strong></p>
+      <img src="{% static 'image/495455fd3c061369cdbf7dd1bb853fc0.jpg' %}" class="bullet">
+      <p class="description"  style="color: black;">Learned to Design</p>
+    </div>
+  </div>
+
+  
+</div>
+{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'Experience.css' %}">
+{% endblock %}
